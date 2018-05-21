@@ -1,0 +1,62 @@
+body {
+    background-image:  url("../img/hexWall.png");
+    text-align: center;
+  	font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+  	color:#3e4c57;
+}
+
+h1 {
+    font-size: 70px;
+  	font-style:italic;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+  	font-style:italic;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  	border: 5px solid #3e4c57;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+footer{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+#links{
+  align-items: center;
+}
+.icon{
+  width:57px;
+  padding:5px;
+}
+.link:hover{
+  transform:scale(1.1);
+}
+.container{
+  padding:5px;
+}
